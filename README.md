@@ -73,7 +73,6 @@ If possible, also include `latest.log`, a screenshot or a video showing the issu
 
 ## Version
 
-**Current version:** `[VERSION]`  
 **Minecraft:** `1.21.1`  
 **Loader:** `NeoForge`
 
