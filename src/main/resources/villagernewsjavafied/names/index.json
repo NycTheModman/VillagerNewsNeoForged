@@ -1,0 +1,4 @@
+{
+  "_comment": "Names files for each add-on version, newest last. Each maps our readable names to that version's (obfuscated) ids.",
+  "versions": ["1.0.4"]
+}

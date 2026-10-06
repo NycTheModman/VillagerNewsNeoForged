@@ -1,0 +1,4 @@
+Based on the MIT-licensed Villager News: Javafied. See LICENSE-JAVAFIED.txt for the original copyright and license.
+NeoForge adaptation by NycTheModman: native events, entity attachments, networking and single-JAR packaging.
+Original add-on content by Element Animation and Oreville Studios, converted from the user-supplied add-on 1.0.4. Original asset rights remain with their respective creators.
+Bundled GeckoLib and Mocha retain their licenses in the nested JARs.

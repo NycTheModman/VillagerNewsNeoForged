@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.javafied.villagernews.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AbstractVillagerMixin",
+		"BehaviorUtilsMixin",
+		"BlockItemMixin",
+		"ButtonBlockMixin",
+		"FarmlandBlockMixin",
+		"LivingEntityMixin",
+		"SheepMixin",
+		"ServerPlayerMixin",
+		"VillagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

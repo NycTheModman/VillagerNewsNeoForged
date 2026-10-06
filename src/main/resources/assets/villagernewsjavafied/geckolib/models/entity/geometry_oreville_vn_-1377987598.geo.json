@@ -1,0 +1,74 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.-1377987598",
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "waist",
+          "parent": "root",
+          "pivot": [
+            0,
+            12,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "waist",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "headjgl2l6",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "fgk6",
+          "parent": "headjgl2l6",
+          "pivot": [
+            0,
+            26.5,
+            -4
+          ]
+        }
+      ]
+    }
+  ]
+}

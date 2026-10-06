@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT (code); original add-on assets retain their respective rights"
+[[mods]]
+modId="villagernewsjavafied"
+version="0.5.0-neoforge-1.21.1"
+displayName="Villager News: Javafied — NeoForge"
+authors="NycTheModman"
+description='''Self-contained Villager News port. Includes converted models, textures, dialogue, sounds and handbook from the supplied add-on. No external mcaddon or resource pack required.'''
+[[mixins]]
+config="villagernewsjavafied.mixins.json"
+[[mixins]]
+config="villagernewsjavafied.client.mixins.json"
+[[dependencies.villagernewsjavafied]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.255,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.villagernewsjavafied]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.villagernewsjavafied]]
+modId="geckolib"
+type="required"
+versionRange="[4.9.3,5)"
+ordering="AFTER"
+side="BOTH"

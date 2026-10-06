@@ -1,0 +1,253 @@
+{
+  "_comment": "Readable names for Villager News 1.0.4's identifiers: our own names on the left, the add-on's ids on the right. Identifiers only - no add-on content. Most dialogs aren't listed: they are named from the add-on's own guide titles when it is converted ('Start Work' -> start_work), and conversation parts after the line that opens them (<name>_part_2, ...). Listed here are the dialogs whose guide title is missing or shared. dialog_fills: dialogs the add-on's sensors ask for but it never defines, put together from its own lines (by sound id) that fit; 'like' is the dialog whose cooldowns they take.",
+  "version": "1.0.4",
+  "characters": {
+    "villager": "villager",
+    "mayor": "ilvfra",
+    "testificate_man": "poztxf",
+    "villager_5": "vwpagn",
+    "villager_9": "xcrjxf",
+    "untouchable": "ghibss",
+    "wandering_trader": "txczvv",
+    "wooly": "mlkxjo"
+  },
+  "entities": {
+    "trade_tier_probe": "vlgzoe"
+  },
+  "items": {
+    "handbook": "kfjmlk",
+    "mayor_hat": "cryhjc",
+    "testificate_man_helmet": "ufernq",
+    "moustache": "odplew",
+    "microphone": "dsojot",
+    "villager_nose": "qzhdgf"
+  },
+  "properties": {
+    "nose": "p:gcfsvg",
+    "accessory": "p:mlxeez",
+    "sign": "p:sign",
+    "sign_message": "p:wjnyei",
+    "style": "p:pmpece",
+    "dodge_pose": "p:ihxrtl",
+    "packed_state": "p:fsjsbp",
+    "vehicle": "p:enczhb",
+    "trade_tier": "p:mreyue",
+    "player_nearby": "p:zsuvyv",
+    "player_close": "p:olbxcw"
+  },
+  "dialog_groups": {
+    "both_noses": "gmrypk",
+    "no_noses": "loicsw",
+    "one_nose": "bygaxw"
+  },
+  "dialog_tags": {
+    "no_hurt_voice": "ouqfaa",
+    "keeps_talking": "auevko",
+    "calendar": "tkbalr",
+    "far_from_home": "apzgds",
+    "breaking_blocks": "mdqkpi",
+    "placing_blocks": "zzejjm",
+    "armor": "xemwyv",
+    "status_effects": "tctvvv"
+  },
+  "script_events": {
+    "dialog": "oreville_vn:gjlxaa",
+    "baby_dialog": "oreville_vn:gsxdsy"
+  },
+  "script_keys": {
+    "dialog_lines": "slhkqn",
+    "line_subtitles": "aswuwr",
+    "subtitle_text": "ysyeto",
+    "dialog_global_cooldown": "jqgklx",
+    "dialog_entity_cooldown": "csiavd",
+    "cooldown_any": "iqirsz",
+    "cooldown_same": "didrid",
+    "tag_global": "plgoli",
+    "tag_entity": "andugb",
+    "state_adult": "jgrldl",
+    "state_baby": "jiixbx",
+    "guide_start": "lrxfyp",
+    "guide_text": "ulqert",
+    "guide_description": "kvksvp",
+    "guide_key": "hinisi",
+    "guide_search": "hxfxiz"
+  },
+  "guide_pages": {
+    "guide": "sxjosu",
+    "overview": "xrcvxx",
+    "special_villagers": "qzbxij",
+    "cosmetics": "birpba",
+    "triggers": "ynokwd",
+    "general_information": "nlheqm",
+    "socials": "oqakoi"
+  },
+  "variables": {
+    "mouth_open": "invysa",
+    "gesture": "skwjdr",
+    "gesturing": "dzpjns",
+    "holding_sign": "omwttl",
+    "sign_wood": "etmflu",
+    "accessory": "epwebi",
+    "actions_and_stuff_style": "wycgfr"
+  },
+  "bones": {
+    "mayor_hat": "lghhat",
+    "moustache": "egmkl2496"
+  },
+  "dialogs": {
+    "named_jeb": "armupg",
+    "named_dinnerbone": "qmpcxi",
+    "baby_named_dragon": "cmrqhw",
+    "complete_a_trade": "xmkwxd",
+    "wandering_trader_complete_a_trade": "bvrbhy",
+    "caught_in_the_rain": "scbmka",
+    "wandering_trader_caught_in_the_rain": "kxoqky",
+    "zombie_nearby": "dortcb",
+    "hit_by_zombie": "mytmrk",
+    "witch_nearby": "lwcrnt",
+    "hit_by_witch": "rtikom",
+    "attacked_at_home_witness_responds": "slbqfwbayahw",
+    "gossip_chain": "wrjbddswxeva",
+    "both_noses_chat_2": "gmrypkoallbt",
+    "both_noses_chat_3": "gmrypkhiqnpi",
+    "both_noses_chat_4": "gmrypkmwtiaf",
+    "no_noses_chat_2": "loicswrotbcq",
+    "no_noses_chat_3": "loicswhiqnpi",
+    "one_nose_chat_2": "bygaxwoallbt",
+    "one_nose_chat_3": "bygaxwhiqnpi",
+    "one_nose_chat_3_part_2": "bygaxwmwtiaf",
+    "mayor_idle": "xxehbq",
+    "mayor_greets": "dpwhhs",
+    "mayor_hurt": "ssbhiv",
+    "mayor_hurt_by_player": "ltdnvy",
+    "mayor_trade_greeting": "njyapy",
+    "mayor_trade_bye_bought": "shrrya",
+    "mayor_trade_bye_no_purchase": "bgzmea",
+    "testificate_man_idle": "luoibc",
+    "testificate_man_greets": "nmwmrz",
+    "testificate_man_hurt": "fzoqwd",
+    "testificate_man_trade_greeting": "mpbnsm",
+    "testificate_man_trade_bye": "ctzfzj",
+    "testificate_man_trade_bye_bought": "xcjort",
+    "testificate_man_trade_bye_no_purchase": "rdugrl",
+    "villager_5_idle": "legnsy",
+    "villager_5_greets": "xccwah",
+    "villager_5_hurt": "behifz",
+    "villager_5_trade_greeting": "sclaoa",
+    "villager_5_trade_bye": "nfdery",
+    "villager_5_trade_bye_bought": "msofrj",
+    "villager_9_idle": "ezgbfw",
+    "villager_9_greets": "kzogzi",
+    "villager_9_hurt": "wrbvvp",
+    "villager_9_hurt_by_player": "asuufu",
+    "villager_9_trade_greeting": "snnkrl",
+    "villager_9_trade_bye": "hvjfnk",
+    "wandering_trader_idle": "stqafd",
+    "wandering_trader_sees_customer": "hxlyuc",
+    "hurt_by_player": "vevdkl",
+    "wandering_trader_trade_greeting": "yubpbb",
+    "wandering_trader_trade_bye_bought": "uzdvsi",
+    "wandering_trader_trade_bye_no_purchase": "erbcfn",
+    "wooly_idle": "vmohcm",
+    "wooly_greets": "uvtocs",
+    "wooly_hurt": "eyiraw",
+    "wooly_hurt_by_player": "ncyeaw"
+  },
+  "dialog_fills": {
+    "hold_an_emerald": {
+      "id": "wbswhi",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:ieqsdm",
+        "oreville_vn:qdhwdd",
+        "oreville_vn:amwyug"
+      ]
+    },
+    "hold_a_lava_bucket": {
+      "id": "bknkrm",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:bnadhu",
+        "oreville_vn:ngbflb"
+      ]
+    },
+    "hold_a_tool": {
+      "id": "cppjkj",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:zhnxhs"
+      ]
+    },
+    "hold_bad_food": {
+      "id": "dpcapt",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:jhzmde",
+        "oreville_vn:dxokjm",
+        "oreville_vn:erqsme"
+      ]
+    },
+    "hold_seeds": {
+      "id": "hgnayo",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:xqaxit",
+        "oreville_vn:rmzdaw",
+        "oreville_vn:enoojz"
+      ]
+    },
+    "hold_a_weapon": {
+      "id": "iyarre",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:drwxhy"
+      ]
+    },
+    "hold_food": {
+      "id": "muofvs",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:qdivoz",
+        "oreville_vn:ypyntr"
+      ]
+    },
+    "hold_a_potion": {
+      "id": "noiikz",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:dplbsv"
+      ]
+    },
+    "hold_a_boat": {
+      "id": "ohtaif",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:hedaae"
+      ]
+    },
+    "hold_a_music_disc": {
+      "id": "wgwnlu",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:ilnxhv"
+      ]
+    },
+    "hold_an_egg": {
+      "id": "zlywmt",
+      "like": "hold_a_nearly_broken_item",
+      "lines": [
+        "oreville_vn:dzzvxz",
+        "oreville_vn:dqvolh"
+      ]
+    },
+    "wandering_trader_sold_out": {
+      "id": "ecyjtz",
+      "like": "wandering_trader_trade_bye_bought",
+      "lines": [
+        "oreville_vn:quupoi",
+        "oreville_vn:ifzejw",
+        "oreville_vn:fghyqo"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.147' }
+version='0.5.0-neoforge-1.21.1'; group='com.javafied.villagernews'
+base { archivesName='villagernews' }
+java.toolchain.languageVersion=JavaLanguageVersion.of(21)
+sourceSets.main.java.srcDir('src/client/java')
+sourceSets.main.resources.srcDir('src/client/resources')
+repositories { mavenCentral(); maven { url='https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' } }
+neoForge {
+ version='21.1.255'
+ runs { client { client(); gameDirectory=project.file('run/client') }; server { server(); gameDirectory=project.file('run/server'); programArgument '--nogui' } }
+ mods { villagernewsjavafied { sourceSet sourceSets.main } }
+}
+dependencies {
+ additionalRuntimeClasspath('team.unnamed:mocha:3.0.1') { exclude group: 'org.javassist' }
+ implementation 'software.bernie.geckolib:geckolib-neoforge-1.21.1:4.9.3'
+ jarJar(implementation('software.bernie.geckolib:geckolib-neoforge-1.21.1:4.9.3'))
+ jarJar(implementation('team.unnamed:mocha:3.0.1')) { exclude group: 'org.javassist' }
+ testImplementation 'org.junit.jupiter:junit-jupiter:6.1.3'
+ testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.1.3'
+}
+test { useJUnitPlatform() }
+tasks.register('exportClasspath') { doLast { file('build').mkdirs(); file('build/classpath.txt').text=sourceSets.main.compileClasspath.asPath } }
+// Plain data/interpreter tests use Minecraft's bundled libraries without booting a game.
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+
+tasks.withType(JavaCompile).configureEach { options.release=21; options.compilerArgs += ["-Xmaxerrs", "1000"] }

@@ -1,0 +1,106 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.1940352316",
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3.5,
+        "texture_width": 4,
+        "texture_height": 1,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "egmkl2496",
+          "pivot": [
+            0,
+            26.5,
+            -4.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                25.5,
+                -4.75
+              ],
+              "size": [
+                4,
+                1,
+                0.25
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    4,
+                    1
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    1,
+                    1
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    4,
+                    1
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    3,
+                    0
+                  ],
+                  "uv_size": [
+                    1,
+                    1
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    4,
+                    1
+                  ],
+                  "uv_size": [
+                    -4,
+                    -1
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    4,
+                    1
+                  ],
+                  "uv_size": [
+                    -4,
+                    -1
+                  ]
+                }
+              }
+            }
+          ],
+          "binding": "'head'"
+        }
+      ]
+    }
+  ]
+}

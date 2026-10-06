@@ -1,0 +1,48 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.834522044",
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3.5,
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "fgk6",
+          "pivot": [
+            0,
+            26.5,
+            -4
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                23,
+                -6
+              ],
+              "size": [
+                2,
+                4,
+                2
+              ],
+              "uv": [
+                24,
+                0
+              ]
+            }
+          ],
+          "binding": "'head'"
+        }
+      ]
+    }
+  ]
+}

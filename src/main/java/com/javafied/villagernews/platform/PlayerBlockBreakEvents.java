@@ -1,0 +1,2 @@
+package com.javafied.villagernews.platform;
+public final class PlayerBlockBreakEvents { @FunctionalInterface public interface After { void accept(net.minecraft.world.level.Level l,net.minecraft.world.entity.player.Player p,net.minecraft.core.BlockPos pos,net.minecraft.world.level.block.state.BlockState s,net.minecraft.world.level.block.entity.BlockEntity be); } public static final Hook<After> AFTER=new Hook<>(); }

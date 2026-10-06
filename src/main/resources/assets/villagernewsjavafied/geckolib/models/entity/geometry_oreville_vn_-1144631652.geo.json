@@ -1,0 +1,290 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.-1144631652",
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3.5,
+        "texture_width": 16,
+        "texture_height": 25,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "helmet",
+          "pivot": [
+            0,
+            23.5,
+            0
+          ],
+          "binding": "'head'"
+        },
+        {
+          "name": "l6kla7a42l6helmet",
+          "parent": "helmet",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                25,
+                -4
+              ],
+              "size": [
+                8,
+                10,
+                8
+              ],
+              "inflate": 0.55,
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    10
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    10
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    10
+                  ],
+                  "uv_size": [
+                    8,
+                    10
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    -8,
+                    10
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    11
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "oaf82",
+          "parent": "l6kla7a42l6helmet",
+          "pivot": [
+            -4.75,
+            32.66161,
+            0.70983
+          ],
+          "rotation": [
+            -45,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.76373,
+                32.61039,
+                -1.23713
+              ],
+              "size": [
+                1,
+                6,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4.25,
+                    19
+                  ],
+                  "uv_size": [
+                    -0.25,
+                    6
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    19
+                  ],
+                  "uv_size": [
+                    -4,
+                    6
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    7.25,
+                    19
+                  ],
+                  "uv_size": [
+                    -0.25,
+                    6
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    4,
+                    19
+                  ],
+                  "uv_size": [
+                    -4,
+                    6
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    20
+                  ],
+                  "uv_size": [
+                    -4,
+                    -1
+                  ],
+                  "uv_rotation": 90
+                },
+                "down": {
+                  "uv": [
+                    4,
+                    24
+                  ],
+                  "uv_size": [
+                    4,
+                    1
+                  ],
+                  "uv_rotation": 90
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "oaf8",
+          "parent": "l6kla7a42l6helmet",
+          "pivot": [
+            4.75,
+            32.66161,
+            0.70983
+          ],
+          "rotation": [
+            -45,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3.76373,
+                32.61039,
+                -1.23713
+              ],
+              "size": [
+                1,
+                6,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4,
+                    19
+                  ],
+                  "uv_size": [
+                    0.25,
+                    6
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    19
+                  ],
+                  "uv_size": [
+                    4,
+                    6
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    7,
+                    19
+                  ],
+                  "uv_size": [
+                    0.25,
+                    6
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    4,
+                    19
+                  ],
+                  "uv_size": [
+                    4,
+                    6
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    19
+                  ],
+                  "uv_size": [
+                    -4,
+                    1
+                  ],
+                  "uv_rotation": 90
+                },
+                "down": {
+                  "uv": [
+                    4,
+                    25
+                  ],
+                  "uv_size": [
+                    4,
+                    -1
+                  ],
+                  "uv_rotation": 90
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

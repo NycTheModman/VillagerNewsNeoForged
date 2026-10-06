@@ -1,0 +1,38 @@
+{
+  "converterSchemaVersion": 13,
+  "addonVersion": "1.0.4",
+  "counts": {
+    "geometries": 25,
+    "textures": 490,
+    "sounds": 2235,
+    "langKeys": 3779,
+    "skippedBehaviorFiles": 5
+  },
+  "geometry": {
+    "geometry.oreville_vn.834522044": "geckolib/models/entity/geometry_oreville_vn_834522044.geo.json",
+    "geometry.oreville_vn.1064568764": "geckolib/models/entity/geometry_oreville_vn_1064568764.geo.json",
+    "geometry.oreville_vn.96833500": "geckolib/models/entity/geometry_oreville_vn_96833500.geo.json",
+    "geometry.oreville_vn.1878756082": "geckolib/models/entity/geometry_oreville_vn_1878756082.geo.json",
+    "geometry.oreville_vn.-98139246": "geckolib/models/entity/geometry_oreville_vn_-98139246.geo.json",
+    "geometry.oreville_vn.208670578": "geckolib/models/entity/geometry_oreville_vn_208670578.geo.json",
+    "geometry.oreville_vn.-1140781998": "geckolib/models/entity/geometry_oreville_vn_-1140781998.geo.json",
+    "geometry.oreville_vn.-2047771566": "geckolib/models/entity/geometry_oreville_vn_-2047771566.geo.json",
+    "geometry.oreville_vn.-1769484142": "geckolib/models/entity/geometry_oreville_vn_-1769484142.geo.json",
+    "geometry.oreville_vn.-418477582": "geckolib/models/entity/geometry_oreville_vn_-418477582.geo.json",
+    "geometry.oreville_vn.567476114": "geckolib/models/entity/geometry_oreville_vn_567476114.geo.json",
+    "geometry.oreville_vn.-1526996078": "geckolib/models/entity/geometry_oreville_vn_-1526996078.geo.json",
+    "geometry.oreville_vn.131968402": "geckolib/models/entity/geometry_oreville_vn_131968402.geo.json",
+    "geometry.oreville_vn.-754165646": "geckolib/models/entity/geometry_oreville_vn_-754165646.geo.json",
+    "geometry.oreville_vn.292718674": "geckolib/models/entity/geometry_oreville_vn_292718674.geo.json",
+    "geometry.oreville_vn.-1855033838": "geckolib/models/entity/geometry_oreville_vn_-1855033838.geo.json",
+    "geometry.oreville_vn.-650401518": "geckolib/models/entity/geometry_oreville_vn_-650401518.geo.json",
+    "geometry.oreville_vn.-1377987598": "geckolib/models/entity/geometry_oreville_vn_-1377987598.geo.json",
+    "geometry.oreville_vn.1265914194": "geckolib/models/entity/geometry_oreville_vn_1265914194.geo.json",
+    "geometry.oreville_vn.1507177618": "geckolib/models/entity/geometry_oreville_vn_1507177618.geo.json",
+    "geometry.oreville_vn.1221980082": "geckolib/models/entity/geometry_oreville_vn_1221980082.geo.json",
+    "geometry.oreville_vn.-1897072036": "geckolib/models/entity/geometry_oreville_vn_-1897072036.geo.json",
+    "geometry.oreville_vn.1940352316": "geckolib/models/entity/geometry_oreville_vn_1940352316.geo.json",
+    "geometry.oreville_vn.-1144631652": "geckolib/models/entity/geometry_oreville_vn_-1144631652.geo.json",
+    "geometry.oreville_vn.357543506": "geckolib/models/entity/geometry_oreville_vn_357543506.geo.json"
+  }
+}

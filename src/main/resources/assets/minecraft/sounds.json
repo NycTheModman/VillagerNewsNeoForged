@@ -1,0 +1,110 @@
+{
+  "entity.villager.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.villager.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.villager.trade": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.villager.no": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.villager.yes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.villager.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.trade": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.no": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.yes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  },
+  "entity.wandering_trader.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villagernewsjavafied:oreville/vn/a",
+        "volume": 1.0E-4
+      }
+    ]
+  }
+}

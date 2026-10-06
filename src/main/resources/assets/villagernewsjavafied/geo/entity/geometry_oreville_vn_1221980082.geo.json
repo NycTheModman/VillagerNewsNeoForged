@@ -1,0 +1,532 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.1221980082",
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "texture_width": 48,
+        "texture_height": 48,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "waist",
+          "parent": "root",
+          "pivot": [
+            0,
+            12,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "waist",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "headjgl2l6",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "l6kla7a42l6helmet",
+          "parent": "headjgl2l6",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                11,
+                8
+              ],
+              "inflate": 0.5,
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    11
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    11
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    24,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    11
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    16,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    11
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    11
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "oaf83",
+          "parent": "l6kla7a42l6helmet",
+          "pivot": [
+            4.5,
+            32.66161,
+            0.70983
+          ],
+          "rotation": [
+            -45,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3.6137,
+                33.61039,
+                -1.23713
+              ],
+              "size": [
+                1,
+                6,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    26,
+                    24
+                  ],
+                  "uv_size": [
+                    1,
+                    6
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    22,
+                    24
+                  ],
+                  "uv_size": [
+                    4,
+                    6
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    29,
+                    24
+                  ],
+                  "uv_size": [
+                    1,
+                    6
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    26,
+                    24
+                  ],
+                  "uv_size": [
+                    4,
+                    6
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    30,
+                    24
+                  ],
+                  "uv_size": [
+                    -4,
+                    1
+                  ],
+                  "uv_rotation": 90
+                },
+                "down": {
+                  "uv": [
+                    26,
+                    29
+                  ],
+                  "uv_size": [
+                    4,
+                    1
+                  ],
+                  "uv_rotation": 90
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "oaf84",
+          "parent": "l6kla7a42l6helmet",
+          "pivot": [
+            -4.5,
+            32.66161,
+            0.70983
+          ],
+          "rotation": [
+            -45,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.6337,
+                33.61039,
+                -1.23713
+              ],
+              "size": [
+                1,
+                6,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    27,
+                    24
+                  ],
+                  "uv_size": [
+                    -1,
+                    6
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    30,
+                    24
+                  ],
+                  "uv_size": [
+                    -4,
+                    6
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    30,
+                    24
+                  ],
+                  "uv_size": [
+                    -1,
+                    6
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    26,
+                    24
+                  ],
+                  "uv_size": [
+                    -4,
+                    6
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    30,
+                    25
+                  ],
+                  "uv_size": [
+                    -4,
+                    -1
+                  ],
+                  "uv_rotation": 90
+                },
+                "down": {
+                  "uv": [
+                    26,
+                    29
+                  ],
+                  "uv_size": [
+                    4,
+                    1
+                  ],
+                  "uv_rotation": 90
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "l6kla7a42l636dl",
+          "parent": "body",
+          "pivot": [
+            0,
+            12,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.5,
+                10,
+                -3.5
+              ],
+              "size": [
+                9,
+                4,
+                7
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    19
+                  ],
+                  "uv_size": [
+                    9,
+                    4
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    19
+                  ],
+                  "uv_size": [
+                    7,
+                    4
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    27,
+                    19
+                  ],
+                  "uv_size": [
+                    9,
+                    4
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    18,
+                    19
+                  ],
+                  "uv_size": [
+                    7,
+                    4
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    9,
+                    12
+                  ],
+                  "uv_size": [
+                    9,
+                    7
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    18,
+                    19
+                  ],
+                  "uv_size": [
+                    9,
+                    -7
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -3,
+                13,
+                -4
+              ],
+              "size": [
+                6,
+                2,
+                1
+              ],
+              "uv": [
+                0,
+                24
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                8,
+                -4
+              ],
+              "size": [
+                2,
+                5,
+                1
+              ],
+              "uv": [
+                15,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "name": "l6kla7a42l6cape",
+          "parent": "body",
+          "pivot": [
+            0,
+            24.5,
+            4
+          ],
+          "rotation": [
+            5,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                8.5,
+                3.5
+              ],
+              "size": [
+                10,
+                16,
+                1
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    43,
+                    1
+                  ],
+                  "uv_size": [
+                    -10,
+                    16
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    43,
+                    1
+                  ],
+                  "uv_size": [
+                    1,
+                    16
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    10,
+                    16
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    32,
+                    1
+                  ],
+                  "uv_size": [
+                    1,
+                    16
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    43,
+                    1
+                  ],
+                  "uv_size": [
+                    -10,
+                    -1
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    43,
+                    18
+                  ],
+                  "uv_size": [
+                    -10,
+                    -1
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

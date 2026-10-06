@@ -1,0 +1,160 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.oreville_vn.-418477582",
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "texture_width": 96,
+        "texture_height": 3045,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "waist",
+          "parent": "root",
+          "pivot": [
+            0,
+            12,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "waist",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "2jek",
+          "parent": "body",
+          "pivot": [
+            0,
+            21,
+            -1
+          ],
+          "rotation": [
+            -42.97,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ka8f",
+          "parent": "2jek",
+          "pivot": [
+            0,
+            15.25,
+            -2.75
+          ],
+          "rotation": [
+            42.97,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "l6pl",
+          "parent": "ka8f",
+          "pivot": [
+            0,
+            15.25,
+            -2.95
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                12.25,
+                -3.61667
+              ],
+              "size": [
+                16,
+                6,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    96,
+                    35
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    0
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    0
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    0
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    0
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
