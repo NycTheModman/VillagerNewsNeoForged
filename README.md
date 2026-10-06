@@ -1,46 +1,85 @@
-# Villager News — NeoForge
+# Villager News: NeoForged
 
-NeoForge port by **NycTheModman**.
+> **This is a direct port, not a recreation. Original Villager News assets are used.**
 
-An unofficial Java adaptation of the Villager News Bedrock add-on for **Minecraft 1.21.1** and **NeoForge 21.1.255 or newer in the 1.21.1 series**.
+**Villager News: NeoForged** is an unofficial port of the Villager News Bedrock add-on by Oreville Studios for **Minecraft Java Edition 1.21.1 using NeoForge**.
 
-The mod includes the converted models, textures, animations, dialogue, sounds and handbook. GeckoLib and Mocha are bundled into the release JAR, so installation needs one mod JAR.
+> [!IMPORTANT]
+> This project is **unofficial** and is **not affiliated with, endorsed by, or supported by Oreville Studios**.
 
-## Build
+---
 
-Install a **JDK 21** and set `JAVA_HOME` to its installation directory. The Gradle wrapper is included; the first build needs internet access to download dependencies.
+## About
 
-On Windows, run this from the project folder:
+This project ports the original Villager News Bedrock add-on to Java Edition.
 
-```powershell
-.\gradlew.bat build
-```
+Because this is a direct port, a lot of the original content from the Bedrock add-on is still used here, including the models, textures, animations, sounds, characters and other assets.
 
-On Linux or macOS:
+I did **not** create the original Villager News content.
 
-```sh
-chmod +x gradlew
-./gradlew build
-```
+What I did was the work needed to make it function as a Java Edition mod, including the NeoForge implementation, Java-side logic, asset conversion, compatibility work, bug fixes and adapting Bedrock behavior to Java.
 
-The mod JAR is written to `build/libs/`.
+---
 
-## Development
+## Requirements
 
-Use `./gradlew runClient` to launch the development client or `./gradlew runServer` to launch a development server. On Windows, use `.\gradlew.bat` instead of `./gradlew`. Development worlds and settings are stored under `run/`.
+**Minecraft:** 1.21.1  
+**Mod Loader:** NeoForge  
+**Edition:** Java Edition
 
-Run `./gradlew test` for the automated test suite. Client Java sources are under `src/client/java`; shared and server code is under `src/main/java`.
+---
 
 ## Installation
 
-Install NeoForge for Minecraft 1.21.1, then place the built JAR in your instance's `mods` folder. Replace older versions of this mod when updating. No separate mcaddon, resource pack, GeckoLib or Mocha download is needed.
+Install NeoForge for Minecraft 1.21.1, then place the downloaded `.jar` file into your Minecraft `mods` folder.
 
-## Included fixes
+On Windows, that folder is usually located at:
 
-This source includes the correction for villagers' face lighting when looking down and the fix for the held handbook's cover being obscured by its outline geometry.
+`%appdata%\.minecraft\mods`
 
-## Credits and licensing
+After that, launch the game using your NeoForge installation.
 
-Based on the MIT-licensed Villager News: Javafied code. The original copyright notices and MIT terms are retained in `LICENSE` and `src/main/resources/META-INF/LICENSE-JAVAFIED.txt`.
+---
 
-Villager News and the original add-on models, textures, sounds, animations, dialogue and artwork belong to Element Animation and Oreville Studios. The code's MIT license does not license those assets. This adaptation is unofficial.
+## Credits
+
+The original **Villager News** add-on and its content were created by **Oreville Studios**.
+
+All original characters, models, textures, sounds, animations, concepts and other Villager News assets belong to their respective original creators.
+
+The Java / NeoForge port was made by **[YOUR USERNAME]**.
+
+---
+
+## Disclaimer
+
+This is a **free, unofficial fan-made port**.
+
+It is not an official Java Edition release of Villager News and is not endorsed by Oreville Studios.
+
+This project contains content originating from the original Villager News Bedrock add-on. I do not claim ownership of Oreville Studios' original assets or intellectual property.
+
+If the original rights holder requests that the project be taken down, distribution may be discontinued.
+
+---
+
+## Bugs
+
+If something breaks, please report what happened, what you expected to happen, your Minecraft version, your NeoForge version and the mod version you were using.
+
+If possible, also include `latest.log`, a screenshot or a video showing the issue.
+
+---
+
+## Version
+
+**Minecraft:** `1.21.1`  
+**Loader:** `NeoForge`
+
+---
+
+## Original Project
+
+**Villager News — Oreville Studios**
+
+Please support the original creators and the original release.
