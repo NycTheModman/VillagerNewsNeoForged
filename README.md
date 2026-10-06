@@ -47,7 +47,7 @@ The original **Villager News** add-on and its content were created by **Oreville
 
 All original characters, models, textures, sounds, animations, concepts and other Villager News assets belong to their respective original creators.
 
-The Java / NeoForge port was made by **[YOUR USERNAME]**.
+The Java / NeoForge port was made by **NycTheModman**.
 
 ---
 
