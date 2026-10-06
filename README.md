@@ -2,127 +2,72 @@
 
 > **This is a direct port, not a recreation. Original Villager News assets are used.**
 
-**An unofficial NeoForge 1.21.1 port of the Villager News Bedrock add-on by Oreville Studios.**
+**Villager News: NeoForged** is an unofficial port of the Villager News Bedrock add-on by Oreville Studios for **Minecraft Java Edition 1.21.1 using NeoForge**.
 
 > [!IMPORTANT]
-> This is an **unofficial fan-made port**.  
-> It is **not affiliated with, endorsed by, or supported by Oreville Studios**.
+> This project is **unofficial** and is **not affiliated with, endorsed by, or supported by Oreville Studios**.
 
 ---
 
 ## About
 
-**Villager News: NeoForged** ports the original **Villager News Bedrock add-on** to **Minecraft Java Edition using NeoForge**.
+This project ports the original Villager News Bedrock add-on to Java Edition.
 
-This is a **direct port**, meaning content from the original Bedrock add-on is used in this project, including:
+Because this is a direct port, a lot of the original content from the Bedrock add-on is still used here, including the models, textures, animations, sounds, characters and other assets.
 
-- Models
-- Textures
-- Animations
-- Sounds
-- Characters
-- Other original add-on assets
+I did **not** create the original Villager News content.
 
-I **did not create the original Villager News content**.
-
-My contribution is the work required to make the add-on function as a Java Edition mod, including:
-
-- NeoForge implementation
-- Java-side logic
-- Asset conversion
-- Compatibility work
-- Bug fixes
-- Porting Bedrock behavior to Java
+What I did was the work needed to make it function as a Java Edition mod, including the NeoForge implementation, Java-side logic, asset conversion, compatibility work, bug fixes and adapting Bedrock behavior to Java.
 
 ---
 
 ## Requirements
 
-- **Minecraft:** 1.21.1
-- **Mod Loader:** NeoForge
-- **Edition:** Java Edition
+**Minecraft:** 1.21.1  
+**Mod Loader:** NeoForge  
+**Edition:** Java Edition
 
 ---
 
 ## Installation
 
-1. Install **NeoForge for Minecraft 1.21.1**.
-2. Download the latest `.jar` release.
-3. Place the `.jar` file inside your Minecraft `mods` folder.
-4. Launch Minecraft using your NeoForge installation.
+Install NeoForge for Minecraft 1.21.1, then place the downloaded `.jar` file into your Minecraft `mods` folder.
 
-The mods folder is normally located at:
+On Windows, that folder is usually located at:
 
 `%appdata%\.minecraft\mods`
+
+After that, launch the game using your NeoForge installation.
 
 ---
 
 ## Credits
 
-### Original Villager News
+The original **Villager News** add-on and its content were created by **Oreville Studios**.
 
-**Villager News** and its original assets were created by **Oreville Studios**.
+All original characters, models, textures, sounds, animations, concepts and other Villager News assets belong to their respective original creators.
 
-All credit for the original content, including:
-
-- Characters
-- Models
-- Textures
-- Sounds
-- Animations
-- Concepts
-- Add-on assets
-
-goes to **Oreville Studios and the respective original creators**.
-
-### NeoForge Port
-
-Java / NeoForge port by:
-
-**[YOUR USERNAME]**
+The Java / NeoForge port was made by **[YOUR USERNAME]**.
 
 ---
 
 ## Disclaimer
 
-This project is:
+This is a **free, unofficial fan-made port**.
 
-- **Unofficial**
-- **Fan-made**
-- **Free**
-- **Not endorsed by Oreville Studios**
-- **Not an official Java Edition release of Villager News**
+It is not an official Java Edition release of Villager News and is not endorsed by Oreville Studios.
 
-This project contains content originating from the original **Villager News Bedrock add-on**.
+This project contains content originating from the original Villager News Bedrock add-on. I do not claim ownership of Oreville Studios' original assets or intellectual property.
 
-Ownership of the original content remains with its respective creator(s).
-
-This project does **not** claim ownership over Oreville Studios' original assets or intellectual property.
-
----
-
-## Distribution
-
-This port is distributed **for free**.
-
-Do not sell this port or present it as an official Oreville Studios release.
-
-If the original rights holder requests that this project be removed, distribution may be discontinued.
+If the original rights holder requests that the project be taken down, distribution may be discontinued.
 
 ---
 
 ## Bugs
 
-If you encounter a bug, please include:
+If something breaks, please report what happened, what you expected to happen, your Minecraft version, your NeoForge version and the mod version you were using.
 
-- What happened
-- What you expected to happen
-- Your Minecraft version
-- Your NeoForge version
-- Your mod version
-- `latest.log`, if relevant
-
-Screenshots or videos are also helpful.
+If possible, also include `latest.log`, a screenshot or a video showing the issue.
 
 ---
 
@@ -138,4 +83,4 @@ Screenshots or videos are also helpful.
 
 **Villager News — Oreville Studios**
 
-Please support the original creators and original release.
+Please support the original creators and the original release.
